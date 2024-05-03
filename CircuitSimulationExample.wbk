@@ -1,0 +1,107 @@
+{
+  "last_sch_text_sim_command": ".tran 1m 500m\r\n.tran 1u 500m 0m 1m",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 1m 500m\r\n.tran 1u 500m 0m 1m",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": false,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 140,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "cursor1": {
+            "position": 0.18143459915611815,
+            "x_format": "3~s",
+            "y_format": "3~A"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "I(D1)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "cursor2": {
+            "position": 0.3607594936708861,
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "P(D1)",
+          "trace_type": 272
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(Vin)",
+          "trace_type": 257
+        }
+      ]
+    },
+    {
+      "analysis": "AC",
+      "commands": [
+        ".ac dec 100 1 100k",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "I(D1)",
+          "trace_type": 522
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "I(D1)",
+          "trace_type": 518
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "I(R1)",
+          "trace_type": 522
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/V1)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/V1)",
+          "trace_type": 521
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}
